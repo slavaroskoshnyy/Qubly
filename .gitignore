@@ -1,8 +1,8 @@
-*.txt
+bs.txt
 *.css.map
 *.sass.map
 *.scss.map
 
 
 
-/#source
+/source
