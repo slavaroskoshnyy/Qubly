@@ -175,6 +175,7 @@ section#top_banner, section#shadow-host-companion {
 }
 .inner_header > .logo > img {
   width: 100%;
+  height: auto;
 }
 .inner_header .right_side_header {
   display: flex;
@@ -294,6 +295,7 @@ section#top_banner, section#shadow-host-companion {
 
 .img_responsive {
   width: 100%;
+  height: auto;
 }
 
 #advantages .notif {
