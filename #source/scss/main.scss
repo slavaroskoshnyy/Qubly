@@ -96,10 +96,15 @@ body {
    opacity: 1;
 }
 
-.img-responsive {
+.img_responsive {
    display: block;
-   max-width: 100%;
+   width: 100%;
    height: auto;
+
+   >source,
+   >img {
+      width: 100%;
+   }
 }
 
 /*# sourceMappingURL=main.css.map */
@@ -387,10 +392,6 @@ section {
    }
 }
 
-.img_responsive {
-   width: 100%;
-   height: auto;
-}
 
 
 #advantages {

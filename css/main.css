@@ -73,10 +73,14 @@ body {
   opacity: 1;
 }
 
-.img-responsive {
+.img_responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+.img_responsive > source,
+.img_responsive > img {
+  width: 100%;
 }
 
 
@@ -292,11 +296,6 @@ section#top_banner, section#shadow-host-companion {
 }
 .btns > .btn_white {
   margin-left: 16px;
-}
-
-.img_responsive {
-  width: 100%;
-  height: auto;
 }
 
 #advantages .notif {
