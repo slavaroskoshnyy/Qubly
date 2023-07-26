@@ -2,7 +2,7 @@ $(function () {
   new WOW().init();
 
   //   mnu mobile open
-
+  
   $(".hamburger").click(function () {
     $(this).toggleClass("is-active");
 
