@@ -94,7 +94,7 @@ body {
    font-family: $default-font;
    overflow-x: hidden;
    opacity: 1;
-	overflow: hidden;
+   overflow: hidden;
 }
 
 .img_responsive {
@@ -189,9 +189,6 @@ section {
 
 .hamburger {
    display: none;
-   // position: relative;
-   // right: 15px;
-   // top: 0;
 
    .line {
       width: 24px;
@@ -200,7 +197,6 @@ section {
       display: block;
       margin: 6px auto;
       transition: all 0.3s ease-in-out;
-      // border-radius: 5px;
 
       &:hover {
          cursor: pointer;
@@ -326,7 +322,6 @@ section {
    }
 }
 
-
 .main {
    &_banner {
       padding: 200px 0 300px;
@@ -393,8 +388,6 @@ section {
    }
 }
 
-
-
 #advantages {
    .notif {
       margin: 0 auto 8px;
@@ -424,7 +417,6 @@ section {
          margin-bottom: 24px;
       }
    }
-
 
    .row {
 
@@ -510,7 +502,6 @@ section.information {
             height: 80px;
             width: 80px;
             border-radius: 50%;
-
          }
 
          >.name,
@@ -519,7 +510,6 @@ section.information {
             color: #111;
             font-weight: 900;
          }
-
       }
    }
 
@@ -589,7 +579,6 @@ section.information {
       &_info {
 
          >h4 {
-
             color: $dark_accent;
             font-weight: 900;
             font-size: 38px;
@@ -597,7 +586,6 @@ section.information {
          }
 
          >img {
-
             display: block;
             margin: 35px auto;
             width: 100%;
@@ -605,12 +593,10 @@ section.information {
       }
 
       &_images {
-
          display: flex;
          flex-wrap: wrap;
          justify-content: space-between;
          margin-top: 15px;
-
 
          .img_wrapper {
             width: 40%;
@@ -636,7 +622,6 @@ section.information {
       &_wrapper {
          background-color: $light_accent;
          border-radius: 4px;
-         // min-width: 480px;
          text-align: center;
 
          >form {
@@ -743,7 +728,6 @@ section.information {
       &_info {
 
          >a {
-
             width: 48px;
             height: 48px;
             display: block;
@@ -775,11 +759,9 @@ section.information {
                   height: 16px;
                   text-decoration: none;
 
-
                   >img {
                      transition: transform .4s ease;
                   }
-
 
                   &:hover>img {
                      transform: translateY(-8px);
@@ -791,7 +773,6 @@ section.information {
                }
             }
          }
-
       }
    }
 
@@ -826,7 +807,6 @@ section.information {
                }
             }
          }
-
       }
    }
 
